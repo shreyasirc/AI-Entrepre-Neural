@@ -16,8 +16,8 @@ from q10 import predict_q10
 
 init_Base64 = 21
 
-filename = 'finalized_model.sav'
-loaded_model = pickle.load(open(filename, 'rb'))
+# filename = 'finalized_model.sav'
+# loaded_model = pickle.load(open(filename, 'rb'))
 
 app = Flask(__name__)
 # run_with_ngrok(app)
