@@ -1,1 +1,1 @@
-# AI Hackathon
+# AI_Entrepreneurship

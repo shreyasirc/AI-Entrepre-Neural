@@ -1,0 +1,19 @@
+Flask>=0.8
+flask-ngrok == 0.0.25
+flask-wtf 
+flask-uploads == 0.2.1
+WTForms == 2.3.3
+flask-wtf == 0.14.3
+Werkzeug==0.16.0
+numpy>=1.9.1
+scipy>=0.14
+six>=1.9.0 
+keras-vggface == 0.6
+Keras-Applications == 1.0.8
+tensorflow>=2.2
+matplotlib
+sklearn
+pandas
+seaborn
+opencv-python
+cv2-tools

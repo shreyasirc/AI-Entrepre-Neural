@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<html >
+
+<!-- head - Googlefonts link -->
+<head>
+  <meta charset="UTF-8">
+  <title>Autism Spectrum Disorder</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Capriola' rel='stylesheet'>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <style>
+        body {
+        font-family: 'Capriola';
+        font-style: cursive;
+        font-size: 1em;
+        font-weight: bold;
+        color: #484848;
+        }
+
+        #outside {
+        background-color: blue;
+        background-image: url('autism13.jpg');
+        background-repeat: no-repeat;
+  		  background-attachment: fixed;
+  		  background-size: cover;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        }
+
+        h1 {
+        font-size: 1.8em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #ff3385;
+
+        }
+       input[type=text], select {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 4px 0;
+ display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+  input[type=email], select {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 4px 0;
+   display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number], select {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 4px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+        form {
+        /* Just to center the form on the page */
+        margin: 0 auto;
+        width: 70%;
+        /* To see the limits of the form */
+        padding: 0.5em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+        
+        }
+        #survey-form {
+        background-color: white;
+        }
+
+        fieldset { 
+        border:1px solid lightgray;
+        margin: 10px;
+         box-shadow: inset 0 0 10px #686868;
+               }
+
+        legend {
+        font-weight: 700;
+        }
+
+       
+
+
+        div + div {
+        margin-top: 0.1em;
+        }
+
+        /* label {
+        /* To make sure that all label have the same size and are properly align */
+        /* display: inline-block; */
+        /* width: 80px; */
+        /* text-align: right; */
+        } */
+
+        input, textarea {
+        /* To make sure that all text field have the same font settings
+            By default, textarea are set with a monospace font */
+        /* font: 1em sans-serif; */
+
+        /* To give the same size to all text field */
+        width: 200px;
+
+        /*   -moz-box-sizing: border-box;
+            box-sizing: border-box; */
+
+        /* To harmonize the look & feel of text field border */
+        border: 1px solid #999;
+        }
+
+        input:focus, textarea:focus {
+        /* To give a little highligh on active elements */
+        border-color: OrangeRed;
+        }
+
+        textarea {
+        /* To properly align multiline text field with their label */
+        vertical-align: top;
+
+        /* To give enough room to type some text */
+        height: 5em;
+
+        /* To allow users to resize any textarea vertically
+            It works only on Chrome, Firefox and Safari */
+        resize: vertical;
+        }
+
+        .button {
+        /* To position the buttons to the same position of the text fields */
+        padding-left: 90px; /* same size as the label elements */
+        }
+
+        button {
+        margin: .5em;
+        font-size: 1em;
+        text-transform: capitalize;
+        background-color: #ff0066;
+        color: white;
+        border: none;
+        padding: 5px;
+        border-radius: 2px;
+        
+        }
+
+        #submitbutton {
+        display: flex; 
+        justify-content: center;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+<div id="outside">
+<form id="survey-form" action="/predict" method="post" enctype="multipart/form-data" style="background-color: rgba(255,255,255,0.66)">
+  <h1 id="title">Autism Detection</h1>
+
+  <!-- ------------------Personal Details---------------------------- -->
+  <fieldset>
+    <!-- groups of widgets that share the same purpose, for styling and semantic purposes -->
+    <legend style="font-size: 1.4em">Personal Details</legend>
+    <!-- formally describes the purpose of the fieldset it is included inside. -->
+    <div>
+      <label id="name-label" for="name">Name :</label>
+      <input type="text" required id="name" name="user_name" placeholder="Enter name here">   </div>
+    <div>
+      <label for="address-label">Address :</label>
+      <input type="text" id="address" name="Address" placeholder="Enter address here">   </div>
+    <div>
+      <label id="email-label" for="Email">Email :</label>
+      <input type="email" required id="email" name="user_email" placeholder="Enter email here">   </div>
+    <div>
+      <label id="number-label" for="phone">Phone Number :</label>
+      <input type="number" id="number" name="user_number" placeholder="Enter 10 digit number" min="1111111111" max="9999999999">  </div>
+
+    <!-- ------------------Radio Buttons-------------------------------- -->
+    <div>
+      <label for="Gender">Gender :</label>
+      <p>
+        <input type="radio" name="gender" value="1" checked> Male
+        <input type="radio" name="gender" value="0"> Female
+        
+      </p>
+    </div>
+
+    <div>
+      <label id="age" for="age">Age (in months) :</label>
+      <input type="number" id="age" name="age" placeholder="Age" min="0" max="1000">   </div>
+    
+    </fieldset>
+
+    <!-- ------------------Questionnaire-------------------------------- -->
+
+    <fieldset>
+    <legend style="font-size: 1.4em">Questionnaire</legend>
+    <div>
+      <label for="A1">⦿ Does your child look at you when you call his/her name?</label>
+      <p>
+        <input type="radio" name="A1" value="0" checked> Always
+        <input type="radio" name="A1" value="0"> Usually
+        <input type="radio" name="A1" value="1"> Rarely
+        <input type="radio" name="A1" value="1"> Sometimes
+        <input type="radio" name="A1" value="1"> Never
+      </p>
+    </div>
+    <div>
+      <label for="A2">⦿ How easy is it for you to get eye contact with your child? </label>
+      <p>
+        <input type="radio" name="A2" value="0" checked> Always
+        <input type="radio" name="A2" value="0"> Usually
+        <input type="radio" name="A2" value="1"> Rarely
+        <input type="radio" name="A2" value="1"> Sometimes
+        <input type="radio" name="A2" value="1"> Never
+      </p>
+    </div>
+    <div>
+      <label for="A3">⦿ Does your child point to indicate that s/he wants something? (e.g. a toy that is out of reach) </label>
+      <p>
+        <input type="radio" name="A3" value="0" checked> Always
+        <input type="radio" name="A3" value="0"> Usually
+        <input type="radio" name="A3" value="1"> Rarely
+        <input type="radio" name="A3" value="1"> Sometimes
+        <input type="radio" name="A3" value="1"> Never
+      </p>
+    </div>
+    <div>
+      <label for="A4">⦿ Does your child point to share interest with you? (e.g. pointing at an interesting sight) </label>
+      <p>
+        <input type="radio" name="A4" value="0" checked> Always
+        <input type="radio" name="A4" value="0"> Usually
+        <input type="radio" name="A4" value="1"> Rarely
+        <input type="radio" name="A4" value="1"> Sometimes
+        <input type="radio" name="A4" value="1"> Never
+      </p>
+    </div>
+    <div>
+      <label for="A5">⦿ Does your child pretend? (e.g. care for dolls, talk on a toy phone) </label>
+      <p>
+        <input type="radio" name="A5" value="0" checked> Always
+        <input type="radio" name="A5" value="0"> Usually
+        <input type="radio" name="A5" value="1"> Rarely
+        <input type="radio" name="A5" value="1"> Sometimes
+        <input type="radio" name="A5" value="1"> Never
+      </p>
+    </div>
+    <div>
+      <label for="A6">⦿ Does your child follow where you’re looking? </label>
+      <p>
+        <input type="radio" name="A6" value="0" checked> Always
+        <input type="radio" name="A6" value="0"> Usually
+        <input type="radio" name="A6" value="1"> Rarely
+        <input type="radio" name="A6" value="1"> Sometimes
+        <input type="radio" name="A6" value="1"> Never
+      </p>
+    </div>
+    <div>
+      <label for="A7">⦿ If you or someone else in the family is visibly upset, does your child show signs of wanting to comfort them? (e.g. stroking hair, hugging them)</label>
+      <p>
+        <input type="radio" name="A7" value="0" checked> Always
+        <input type="radio" name="A7" value="0"> Usually
+        <input type="radio" name="A7" value="1"> Rarely
+        <input type="radio" name="A7" value="1"> Sometimes
+        <input type="radio" name="A7" value="1"> Never
+      </p>
+    </div>
+    <div>
+      <label for="A8">⦿ Would you describe your child’s first words as: </label>
+      <p>
+        <input type="radio" name="A8" value="0" checked> Always
+        <input type="radio" name="A8" value="0"> Usually
+        <input type="radio" name="A8" value="1"> Rarely
+        <input type="radio" name="A8" value="1"> Sometimes
+        <input type="radio" name="A8" value="1"> Never
+      </p>
+    </div>
+    <div>
+      <label for="A9">⦿ Does your child use simple gestures? (e.g. wave goodbye) </label>
+      <p>
+        <input type="radio" name="A9" value="0" checked> Always
+        <input type="radio" name="A9" value="0"> Usually
+        <input type="radio" name="A9" value="1"> Rarely
+        <input type="radio" name="A9" value="1"> Sometimes
+        <input type="radio" name="A9" value="1"> Never
+      </p>
+    </div>
+    <div>
+      <label for="A10">⦿ Does your child stare at nothing with no apparent purpose? </label>
+      <p>
+        <input type="radio" name="A10" value="1" checked> Always
+        <input type="radio" name="A10" value="1"> Usually
+        <input type="radio" name="A10" value="1"> Rarely
+        <input type="radio" name="A10" value="0"> Sometimes
+        <input type="radio" name="A10" value="0"> Never
+      </p>
+    </div>
+  
+    <div>
+      <label for="jaundice">⦿ Born with jaundice? </label>
+      <p>
+        <input type="radio" name="jaundice" value="1" checked> Yes
+        <input type="radio" name="jaundice" value="0"> No
+      </p>
+    </div>
+
+    <div>
+      <label for="ASD_history">⦿ Any family member with ASD history? </label>
+      <p>
+        <input type="radio" name="ASD_history" value="1" checked> Yes
+        <input type="radio" name="ASD_history" value="0"> No
+      </p>
+    </div>
+
+<!--    <div>
+      <label for="ASD_traits">⦿ Any ASD traits? </label>
+      <p>
+        <input type="radio" name="ASD_traits" value="1" checked> Yes
+        <input type="radio" name="ASD_traits" value="0"> No
+      </p>
+    </div>
+-->
+    </fieldset>
+
+  <!-- --------------------Text Areas------------------------------ -->
+
+  <fieldset>
+
+    <p>Upload Photo here: <input type="file" id="myFile" name="filename">
+
+      
+  </fieldset>
+
+  <div id="submitbutton">
+    <button type="submit" id="submit">Send your form</button>   </div>
+
+</form>
+  </div>
+
+</body>
+</html>
