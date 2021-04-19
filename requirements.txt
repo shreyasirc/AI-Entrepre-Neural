@@ -9,7 +9,7 @@ scipy>=0.14
 six>=1.9.0 
 keras-vggface == 0.6
 Keras-Applications == 1.0.8
-python3-tflite-runtime
+--extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime
 matplotlib
 sklearn
 pandas
