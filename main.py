@@ -8,10 +8,10 @@ from flask_uploads import configure_uploads, IMAGES, UploadSet
 import pickle
 import threading
 import base64
+
 # from prediction import predict
 from VF import predict_vf
 from werkzeug.utils import secure_filename
-from keras.preprocessing.image import load_img
 from q10 import predict_q10
 
 init_Base64 = 21
@@ -44,13 +44,13 @@ def predict():
     print(request.form.values())
     all_features = [x for x in request.form.values()]
 
-    int_features = [int(x) for x in all_features[6:16]] # A1-A10
-    int_features.append(int(all_features[5])) # age in months
-    qScore = int_features[6:16].count(1)
+    int_features = [int(x) for x in all_features[2:12]] # A1-A10
+    int_features.append(int(all_features[1])) # age in months
+    qScore = int_features[2:12].count(1)
     int_features.append(qScore) # q score
-    int_features.append(int(all_features[4])) # sex
-    int_features.append(int(all_features[16])) # jaundice
-    int_features.append(int(all_features[17])) # ASD family history
+    int_features.append(int(all_features[0])) # sex
+    int_features.append(int(all_features[12])) # jaundice
+    int_features.append(int(all_features[13])) # ASD family history
     # int_features.append(int(all_features[18])) # ASD traits
 
     img = request.files['filename']
