@@ -1,4 +1,4 @@
-https://github.com/google-coral/pycoral/releases/download/v1.0.1/tflite_runtime-2.5.0-cp38-cp38-linux_armv7l.whl#sha256=953f6b7e2a6679c39b95ef7957a6bd78fff4b5e0dd78244599cfa78037e19953
+https://github.com/google-coral/pycoral/releases/download/v1.0.1/tflite_runtime-2.5.0-cp38-cp38-linux_aarch64.whl#sha256=b87a4c152be05d3585521a1d5418f7645a4fb82965772489b983e93aae6bd9ac
 Flask>=0.8
 flask-ngrok == 0.0.25
 flask-wtf 
