@@ -3,7 +3,6 @@ flask-ngrok == 0.0.25
 flask-wtf 
 flask-uploads == 0.2.1
 WTForms == 2.3.3
-flask-wtf == 0.14.3
 Werkzeug==0.16.0
 numpy>=1.9.1
 scipy>=0.14
