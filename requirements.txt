@@ -1,6 +1,5 @@
 --extra-index-url https://google-coral.github.io/py-repo 
-
--e .
+tflite_runtime
 Flask>=0.8
 flask-ngrok == 0.0.25
 flask-wtf 
@@ -16,4 +15,4 @@ pandas
 seaborn
 opencv-python
 cv2-tools
-tflite_runtime
+
