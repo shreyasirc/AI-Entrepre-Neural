@@ -1,5 +1,6 @@
 --extra-index-url https://google-coral.github.io/py-repo 
 
+-e .
 Flask>=0.8
 flask-ngrok == 0.0.25
 flask-wtf 
