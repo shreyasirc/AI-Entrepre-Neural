@@ -1,3 +1,4 @@
+from time import sleep
 import os
 import numpy as np
 from flask import Flask, request, jsonify, render_template
@@ -17,7 +18,7 @@ from q10 import predict_q10
 init_Base64 = 21
 
 # filename = 'finalized_model.sav'
-# loaded_model = pickle.load(open(filename, 'rb'))
+# loaded_model = pickle.load(`(filename, 'rb'))
 
 app = Flask(__name__)
 # run_with_ngrok(app)
@@ -59,10 +60,10 @@ def predict():
     # img = img[init_Base64:]
     # img_decoded = base64.b64decode(img)
     basepath = os.path.dirname(__file__)
-    print(basepath)
+    # print(basepath)
     filepath = os.path.join(basepath, secure_filename(img.filename))
     # filepath = ''
-    print(filepath)
+    # print(filepath)
     img.save(filepath)
 
     # image = np.asarray(bytearray(img_decoded), dtype="uint8")
@@ -84,13 +85,16 @@ def predict():
     # print(all_features)
     # print(int_features)
     # qchat10 = loaded_model.predict_proba([int_features])[0][0]
+
+    vf = predict_vf(filepath)[0]
     qchat10 = predict_q10([int_features])[0][0]
     # print(int_features)
     # int_features.insert(0,all_features[4])
     # print(int_features)
-    vf = predict_vf(filepath)[0]
-    print(vf)
-    print(qchat10)
+    sleep(2)
+    os.remove(filepath)
+    # print(vf)
+    # print(qchat10)
 
     # final_features = [np.array(int_features)]
     # prediction = model.predict(final_features)
@@ -117,3 +121,4 @@ if __name__ == "__main__":
 # threading.Thread(target=app.run, kwargs={'host':'172.28.0.2', 'port':6000}).start()
 # app.run(debug=True, use_reloader=False, host='127.0.0.1', port=6000)
     # app.run(debug=True)
+
