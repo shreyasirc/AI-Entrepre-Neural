@@ -57,16 +57,16 @@ Total time required for inferencing ,by using OpenVino : 45.764 s
 
 Hence, time taken for a single image after inference using OpenVino is 0.152 s0
 
-# Softwares and tools used
+# Softwares and Libraries used
 
 1. Google Colab
 2. Keras
 3. Tensorflow
 4. Tensorflow lite
 5. OpenCV
-6. OpenVino Toolkit
+6. OpenVINO Toolkit
 7. Flask
-8. HTML
+8. Heroku
 
 
 # Steps to Run it locally:
