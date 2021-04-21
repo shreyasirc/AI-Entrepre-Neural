@@ -43,6 +43,20 @@ The models are fine tuned on the same Kaggle dataset of 2897 labeled images. The
 of approximately 2 years to 14 years, with majority of the pictures between ages 2 years to 8 years. The gender ratio
 in Autistic class is 3:1 (Male: Female) and in Non Autistic it’s close to 1:1 (which are close to their respective populations). The ratio of white children to children of color is 10:1
 
+## OpenVino Inference 
+
+OpenVino Inference Model Optimizer of OpenVino Toolkit produces an
+Intermediate Representation (IR) of the network, which can be read, loaded, and inferred with the Inference Engine.
+
+Model Optimizer is a cross platform command line tool that facilitates the transition between the training and deployment environment, and adjusts deep learning models for optimal execution on end point target devices.
+
+We have used OpenVino in Google Colab. There was a significant improvement of inference time when we used OpenVino 
+
+Total time required for inferencing ,without using OpenVino : 61.770 s
+Total time required for inferencing ,by using OpenVino : 45.764 s
+
+Hence, time taken for a single image after inference using OpenVino is 0.152 s0
+
 # Softwares and tools used
 
 1. Google Colab
