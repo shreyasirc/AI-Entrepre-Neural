@@ -15,4 +15,4 @@ pandas
 seaborn
 opencv-python
 cv2-tools
-
+gunicorn==20.1.0
