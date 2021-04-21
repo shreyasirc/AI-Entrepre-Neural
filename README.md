@@ -52,7 +52,7 @@ Model Optimizer is a cross platform command line tool that facilitates the trans
 
 We have used OpenVino in Google Colab. There was a significant improvement of inference time when we used OpenVino 
 
-Total time required for inferencing ,without using OpenVino : 61.770 s
+Total time required for inferencing ,without using OpenVino : 61.770 s<br/>
 Total time required for inferencing ,by using OpenVino : 45.764 s
 
 Hence, time taken for a single image after inference using OpenVino is 0.152 s0
