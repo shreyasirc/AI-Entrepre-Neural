@@ -53,10 +53,9 @@ Model Optimizer is a cross platform command line tool that facilitates the trans
 We have used OpenVino in Google Colab. There was a significant improvement of inference time when we used OpenVino 
 
 Total time required for inferencing ,without using OpenVino : 61.770 s
-
 Total time required for inferencing ,by using OpenVino : 45.764 s
 
-Hence, time taken for a single image after inference using OpenVino is 0.152 s
+Hence, time taken for a single image after inference using OpenVino is 0.152 s0
 
 # Softwares and tools used
 
@@ -101,8 +100,9 @@ And then open any browser and type in localhost:5000 or 127.0.0.1:5000.
 
 # Future Enhancements:
 
-Here we have 2 different datasets and two different models to detect ASD and we have taken the weighted average of the individual probabilites to compute the final result.
-A better approach would be to train a models to detect ASD if a single dataset contains both images and Q-CHAT-10 data of toddlers.
+1. Here we have 2 different datasets and two different models to detect ASD and we have taken the weighted average of the individual probabilites to compute the final result. A better approach would be to train a models to detect ASD if a single dataset contains both images and Q-CHAT-10 data of toddlers.
+2. Enhancing face detection algorithms in case the images are hazy or noisy.
+3. In cases of multiple faces in the input image, using age detection algorithms to select the one face closest to that of a toddler.
 
 # Contributors:
 
