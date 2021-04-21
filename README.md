@@ -56,7 +56,7 @@ Total time required for inferencing ,without using OpenVino : 61.770 s
 
 Total time required for inferencing ,by using OpenVino : 45.764 s
 
-Hence, time taken for a single image after inference using OpenVino is 0.152 s0
+Hence, time taken for a single image after inference using OpenVino is 0.152 s
 
 # Softwares and tools used
 
