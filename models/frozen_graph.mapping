@@ -1,0 +1,1663 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="model/activation_27/Relu" out_port_id="0"/>
+		<IR id="189" name="model/activation_27/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_3_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="85" name="model/conv2_3_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_2_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="45" name="model/conv2_2_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_3_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="317" name="model/conv4_3_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/multiply_13/mul" out_port_id="0"/>
+		<IR id="478" name="model/multiply_13/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_5/Reshape/shape" out_port_id="0"/>
+		<IR id="196" name="model/reshape_5/Reshape/Cast_123864_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_4_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="234" name="model/conv3_4_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="468" name="model/conv5_1_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_6_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="426" name="model/conv4_6_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/add_2/add" out_port_id="0"/>
+		<IR id="108" name="model/add_2/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_2_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="495" name="model/conv5_2_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1487914881_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_2_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="49" name="model/conv2_2_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1470714709_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_45/Relu" out_port_id="0"/>
+		<IR id="315" name="model/activation_45/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="111" name="model/conv3_1_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_12/Reshape/shape" out_port_id="0"/>
+		<IR id="431" name="model/reshape_12/Reshape/Cast_123794_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_5_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="387" name="model/conv4_5_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1483514837_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_1x1_proj/Conv2D" out_port_id="0"/>
+		<IR id="39" name="model/conv2_1_1x1_proj/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_4_3x3/Conv2D" out_port_id="0"/>
+		<IR id="219" name="model/conv3_4_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_77/Relu" out_port_id="0"/>
+		<IR id="527" name="model/activation_77/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_64/Sigmoid" out_port_id="0"/>
+		<IR id="444" name="model/activation_64/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_4_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="369" name="model/conv4_4_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_32/Relu" out_port_id="0"/>
+		<IR id="222" name="model/activation_32/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_3_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="341" name="model/conv4_3_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_2_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="65" name="model/conv2_2_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_2_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="283" name="model/conv4_2_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1479514797_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d_6/Mean" out_port_id="0"/>
+		<IR id="228" name="model/global_average_pooling2d_6/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_2_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="490" name="model/conv5_2_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1487514877_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_62/Relu" out_port_id="0"/>
+		<IR id="424" name="model/activation_62/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d_10/Mean" out_port_id="0"/>
+		<IR id="364" name="model/global_average_pooling2d_10/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_44/Sigmoid" out_port_id="0"/>
+		<IR id="312" name="model/activation_44/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_2_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="170" name="model/conv3_2_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_1x1_proj/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="141" name="model/conv3_1_1x1_proj/bn/FusedBatchNormV3/mean/Fused_Mul_1472714729_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_10/add" out_port_id="0"/>
+		<IR id="380" name="model/add_10/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_3_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="523" name="model/conv5_3_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1488714889_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/multiply_6/mul" out_port_id="0"/>
+		<IR id="243" name="model/multiply_6/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_2_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="293" name="model/conv4_2_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1480314805_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/reshape_5/Reshape" out_port_id="0"/>
+		<IR id="199" name="model/reshape_5/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_31/Relu" out_port_id="0"/>
+		<IR id="217" name="model/activation_31/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d_9/Mean" out_port_id="0"/>
+		<IR id="331" name="model/global_average_pooling2d_9/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="246" name="model/conv4_1_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1478314785_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_3_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="336" name="model/conv4_3_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_1/add" out_port_id="0"/>
+		<IR id="75" name="model/add_1/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_4_3x3/Conv2D" out_port_id="0"/>
+		<IR id="355" name="model/conv4_4_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_3_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="326" name="model/conv4_3_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1481514817_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add/add" out_port_id="0"/>
+		<IR id="42" name="model/add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="118" name="model/conv3_1_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_4_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="223" name="model/conv3_4_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1477514777_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_2_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="152" name="model/conv3_2_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1474714749_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="254" name="model/conv4_1_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_3_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="316" name="model/conv4_3_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1480714809_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="35" name="model/conv2_1_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_4_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="236" name="model/conv3_4_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_15/Reshape" out_port_id="0"/>
+		<IR id="537" name="model/reshape_15/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="272" name="model/conv4_1_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv1/7x7_s2/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="1" name="model/conv1/7x7_s2/bn/FusedBatchNormV3/mean/Fused_Mul_1468314685_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_2_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="150" name="model/conv3_2_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d_11/Mean" out_port_id="0"/>
+		<IR id="397" name="model/global_average_pooling2d_11/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_3_3x3/Conv2D" out_port_id="0"/>
+		<IR id="186" name="model/conv3_3_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_2_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="488" name="model/conv5_2_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_55/Relu" out_port_id="0"/>
+		<IR id="381" name="model/activation_55/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_4_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="372" name="model/conv4_4_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_20/Relu" out_port_id="0"/>
+		<IR id="146" name="model/activation_20/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_4_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="224" name="model/conv3_4_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_4_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="370" name="model/conv4_4_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_2_3x3/Conv2D" out_port_id="0"/>
+		<IR id="491" name="model/conv5_2_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_3_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="98" name="model/conv2_3_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_3x3/Conv2D" out_port_id="0"/>
+		<IR id="116" name="model/conv3_1_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="474" name="model/conv5_1_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_72/Relu" out_port_id="0"/>
+		<IR id="494" name="model/activation_72/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_2_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="304" name="model/conv4_2_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_2_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="172" name="model/conv3_2_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/reshape_10/Reshape/shape" out_port_id="0"/>
+		<IR id="365" name="model/reshape_10/Reshape/Cast_123808_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_6_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="425" name="model/conv4_6_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1485114853_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_2/Relu" out_port_id="0"/>
+		<IR id="16" name="model/activation_2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_4_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="216" name="model/conv3_4_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_4_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="359" name="model/conv4_4_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1482714829_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_2_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="147" name="model/conv3_2_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1474314745_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv5_2_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="510" name="model/conv5_2_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_6_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="415" name="model/conv4_6_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1484314845_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_3_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="201" name="model/conv3_3_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_2_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="505" name="model/conv5_2_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_6/Relu" out_port_id="0"/>
+		<IR id="48" name="model/activation_6/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/multiply_7/mul" out_port_id="0"/>
+		<IR id="276" name="model/multiply_7/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_6_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="440" name="model/conv4_6_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_3_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="185" name="model/conv3_3_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1475914761_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/reshape_14/Reshape" out_port_id="0"/>
+		<IR id="504" name="model/reshape_14/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_66/Relu" out_port_id="0"/>
+		<IR id="452" name="model/activation_66/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_7/Relu" out_port_id="0"/>
+		<IR id="53" name="model/activation_7/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_63/Relu" out_port_id="0"/>
+		<IR id="439" name="model/activation_63/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv5_3_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="541" name="model/conv5_3_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_24/Sigmoid" out_port_id="0"/>
+		<IR id="176" name="model/activation_24/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="448" name="model/conv5_1_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1485914861_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_5_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="408" name="model/conv4_5_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_50/Relu" out_port_id="0"/>
+		<IR id="348" name="model/activation_50/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_13/add" out_port_id="0"/>
+		<IR id="483" name="model/add_13/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_76/Relu" out_port_id="0"/>
+		<IR id="522" name="model/activation_76/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_1x1_proj/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="482" name="model/conv5_1_1x1_proj/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_3_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="344" name="model/conv4_3_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv1/7x7_s2/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="4" name="model/conv1/7x7_s2/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/add_14/add" out_port_id="0"/>
+		<IR id="516" name="model/add_14/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_7/Reshape" out_port_id="0"/>
+		<IR id="265" name="model/reshape_7/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_1/Relu" out_port_id="0"/>
+		<IR id="11" name="model/activation_1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_4_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="238" name="model/conv3_4_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="113" name="model/conv3_1_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_1x1_proj/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="38" name="model/conv2_1_1x1_proj/bn/FusedBatchNormV3/mean/Fused_Mul_1468714689_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/reshape_7/Reshape/shape" out_port_id="0"/>
+		<IR id="262" name="model/reshape_7/Reshape/Cast_123872_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d_3/Mean" out_port_id="0"/>
+		<IR id="125" name="model/global_average_pooling2d_3/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="476" name="model/conv5_1_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_2_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="157" name="model/conv3_2_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1475114753_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_19/Sigmoid" out_port_id="0"/>
+		<IR id="139" name="model/activation_19/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_40/Relu" out_port_id="0"/>
+		<IR id="282" name="model/activation_40/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="266" name="model/conv4_1_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_3_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="208" name="model/conv3_3_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/multiply_12/mul" out_port_id="0"/>
+		<IR id="445" name="model/multiply_12/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d_5/Mean" out_port_id="0"/>
+		<IR id="195" name="model/global_average_pooling2d_5/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_70/Relu" out_port_id="0"/>
+		<IR id="484" name="model/activation_70/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_4_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="352" name="model/conv4_4_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="471" name="model/conv5_1_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_3_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="529" name="model/conv5_3_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_4_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="241" name="model/conv3_4_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d/Mean" out_port_id="0"/>
+		<IR id="22" name="model/global_average_pooling2d/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_46/Relu" out_port_id="0"/>
+		<IR id="320" name="model/activation_46/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/reshape_6/Reshape/shape" out_port_id="0"/>
+		<IR id="229" name="model/reshape_6/Reshape/Cast_123850_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_71/Relu" out_port_id="0"/>
+		<IR id="489" name="model/activation_71/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/multiply_5/mul" out_port_id="0"/>
+		<IR id="210" name="model/multiply_5/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_3x3/Conv2D" out_port_id="0"/>
+		<IR id="252" name="model/conv4_1_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="135" name="model/conv3_1_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="130" name="model/conv3_1_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv5_3_3x3/Conv2D" out_port_id="0"/>
+		<IR id="524" name="model/conv5_3_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_9/Sigmoid" out_port_id="0"/>
+		<IR id="73" name="model/activation_9/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_2_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="55" name="model/conv2_2_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_4_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="214" name="model/conv3_4_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_2_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="175" name="model/conv3_2_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_73/Relu" out_port_id="0"/>
+		<IR id="509" name="model/activation_73/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_15/add" out_port_id="0"/>
+		<IR id="549" name="model/add_15/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_38/Relu" out_port_id="0"/>
+		<IR id="270" name="model/activation_38/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_2_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="168" name="model/conv3_2_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_3_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="538" name="model/conv5_3_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_4_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="357" name="model/conv4_4_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_23/Relu" out_port_id="0"/>
+		<IR id="171" name="model/activation_23/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv5_2_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="506" name="model/conv5_2_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="136" name="model/conv3_1_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_4_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="354" name="model/conv4_4_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1482314825_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d_4/Mean" out_port_id="0"/>
+		<IR id="162" name="model/global_average_pooling2d_4/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="10" name="model/conv2_1_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_3_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="521" name="model/conv5_3_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_3_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="519" name="model/conv5_3_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_1x1_proj/Conv2D" out_port_id="0"/>
+		<IR id="278" name="model/conv4_1_1x1_proj/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_6/Reshape" out_port_id="0"/>
+		<IR id="232" name="model/reshape_6/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_5_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="392" name="model/conv4_5_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1483914841_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_6_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="416" name="model/conv4_6_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="449" name="model/conv5_1_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_14/Reshape/shape" out_port_id="0"/>
+		<IR id="501" name="model/reshape_14/Reshape/Cast_123818_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="12" name="model/conv2_1_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1469514697_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/reshape_8/Reshape/shape" out_port_id="0"/>
+		<IR id="299" name="model/reshape_8/Reshape/Cast_123816_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="120" name="model/conv3_1_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1473914741_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_2_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="291" name="model/conv4_2_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_1x1_proj/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="277" name="model/conv4_1_1x1_proj/bn/FusedBatchNormV3/mean/Fused_Mul_1477914781_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="x" out_port_id="0"/>
+		<IR id="0" name="x" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="model/conv3_2_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="155" name="model/conv3_2_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_2_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="52" name="model/conv2_2_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="131" name="model/conv3_1_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/add_7/add" out_port_id="0"/>
+		<IR id="281" name="model/add_7/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_4_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="350" name="model/conv4_4_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_2/Reshape/shape" out_port_id="0"/>
+		<IR id="93" name="model/reshape_2/Reshape/Cast_123780_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_41/Relu" out_port_id="0"/>
+		<IR id="287" name="model/activation_41/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv5_2_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="485" name="model/conv5_2_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1487114873_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="17" name="model/conv2_1_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1469914701_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="15" name="model/conv2_1_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_3_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="102" name="model/conv2_3_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv1/7x7_s2/Conv2D" out_port_id="0"/>
+		<IR id="2" name="model/conv1/7x7_s2/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_4_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="377" name="model/conv4_4_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_4_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="221" name="model/conv3_4_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_47/Relu" out_port_id="0"/>
+		<IR id="325" name="model/activation_47/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_3_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="97" name="model/conv2_3_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_6_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="420" name="model/conv4_6_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1484714849_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_3_3x3/Conv2D" out_port_id="0"/>
+		<IR id="322" name="model/conv4_3_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="453" name="model/conv5_1_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1486314865_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_2_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="167" name="model/conv3_2_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_39/Sigmoid" out_port_id="0"/>
+		<IR id="275" name="model/activation_39/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv5_2_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="486" name="model/conv5_2_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_3x3/Conv2D" out_port_id="0"/>
+		<IR id="454" name="model/conv5_1_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_1x1_proj/Conv2D" out_port_id="0"/>
+		<IR id="480" name="model/conv5_1_1x1_proj/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_3_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="337" name="model/conv4_3_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_3_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="205" name="model/conv3_3_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv5_3_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="544" name="model/conv5_3_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_3x3/Conv2D" out_port_id="0"/>
+		<IR id="13" name="model/conv2_1_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_4_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="374" name="model/conv4_4_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/multiply_2/mul" out_port_id="0"/>
+		<IR id="107" name="model/multiply_2/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="274" name="model/conv4_1_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_3_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="327" name="model/conv4_3_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_3_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="100" name="model/conv2_3_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/dense/BiasAdd" out_port_id="0"/>
+		<IR id="559" name="model/dense/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="251" name="model/conv4_1_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1478714789_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="8" name="model/conv2_1_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="133" name="model/conv3_1_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_2_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="44" name="model/conv2_2_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1470314705_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_4/Sigmoid" out_port_id="0"/>
+		<IR id="36" name="model/activation_4/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/classifier/MatMul" out_port_id="0"/>
+		<IR id="562" name="model/classifier/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_11/Reshape/shape" out_port_id="0"/>
+		<IR id="398" name="model/reshape_11/Reshape/Cast_123778_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="33" name="model/conv2_1_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_13/Reshape/shape" out_port_id="0"/>
+		<IR id="464" name="model/reshape_13/Reshape/Cast_123806_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/reshape_2/Reshape" out_port_id="0"/>
+		<IR id="96" name="model/reshape_2/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_6_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="438" name="model/conv4_6_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_35/Relu" out_port_id="0"/>
+		<IR id="245" name="model/activation_35/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d_14/Mean" out_port_id="0"/>
+		<IR id="500" name="model/global_average_pooling2d_14/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/multiply/mul" out_port_id="0"/>
+		<IR id="37" name="model/multiply/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_51/Relu" out_port_id="0"/>
+		<IR id="353" name="model/activation_51/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="7" name="model/conv2_1_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1469114693_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_5_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="385" name="model/conv4_5_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_1x1_proj/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="479" name="model/conv5_1_1x1_proj/bn/FusedBatchNormV3/mean/Fused_Mul_1485514857_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/multiply_11/mul" out_port_id="0"/>
+		<IR id="412" name="model/multiply_11/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_6_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="441" name="model/conv4_6_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_3_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="181" name="model/conv3_3_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="30" name="model/conv2_1_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d_2/Mean" out_port_id="0"/>
+		<IR id="92" name="model/global_average_pooling2d_2/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/multiply_3/mul" out_port_id="0"/>
+		<IR id="140" name="model/multiply_3/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_67/Relu" out_port_id="0"/>
+		<IR id="457" name="model/activation_67/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_16/Relu" out_port_id="0"/>
+		<IR id="114" name="model/activation_16/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_9/add" out_port_id="0"/>
+		<IR id="347" name="model/add_9/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_3_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="324" name="model/conv4_3_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/flatten/Reshape" out_port_id="0"/>
+		<IR id="555" name="model/flatten/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/multiply_1/mul" out_port_id="0"/>
+		<IR id="74" name="model/multiply_1/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/dense/MatMul" out_port_id="0"/>
+		<IR id="557" name="model/dense/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_2_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="496" name="model/conv5_2_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_3_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="82" name="model/conv2_3_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1471914721_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_30/Relu" out_port_id="0"/>
+		<IR id="212" name="model/activation_30/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_18/Relu" out_port_id="0"/>
+		<IR id="134" name="model/activation_18/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_3_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="87" name="model/conv2_3_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1472314725_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_1x1_proj/Conv2D" out_port_id="0"/>
+		<IR id="142" name="model/conv3_1_1x1_proj/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_9/Reshape/shape" out_port_id="0"/>
+		<IR id="332" name="model/reshape_9/Reshape/Cast_123860_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_4/add" out_port_id="0"/>
+		<IR id="178" name="model/add_4/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_3_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="77" name="model/conv2_3_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1471514717_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_3_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="105" name="model/conv2_3_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_5/Relu" out_port_id="0"/>
+		<IR id="43" name="model/activation_5/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_4_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="375" name="model/conv4_4_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_2_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="288" name="model/conv4_2_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1479914801_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_4_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="360" name="model/conv4_4_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_5_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="405" name="model/conv4_5_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_4_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="213" name="model/conv3_4_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1476714769_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_6_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="435" name="model/conv4_6_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/reshape_13/Reshape" out_port_id="0"/>
+		<IR id="467" name="model/reshape_13/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/multiply_8/mul" out_port_id="0"/>
+		<IR id="313" name="model/multiply_8/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_2_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="47" name="model/conv2_2_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_60/Relu" out_port_id="0"/>
+		<IR id="414" name="model/activation_60/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_78/Relu" out_port_id="0"/>
+		<IR id="542" name="model/activation_78/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_15/Relu" out_port_id="0"/>
+		<IR id="109" name="model/activation_15/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_69/Sigmoid" out_port_id="0"/>
+		<IR id="477" name="model/activation_69/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_2_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="69" name="model/conv2_2_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_5/add" out_port_id="0"/>
+		<IR id="211" name="model/add_5/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_6_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="423" name="model/conv4_6_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="459" name="model/conv5_1_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_3_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="206" name="model/conv3_3_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_2_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="67" name="model/conv2_2_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_12/Relu" out_port_id="0"/>
+		<IR id="86" name="model/activation_12/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="115" name="model/conv3_1_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1473514737_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_26/Relu" out_port_id="0"/>
+		<IR id="184" name="model/activation_26/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/avg_pool/AvgPool" out_port_id="0"/>
+		<IR id="553" name="model/avg_pool/AvgPool/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_52/Relu" out_port_id="0"/>
+		<IR id="358" name="model/activation_52/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_61/Relu" out_port_id="0"/>
+		<IR id="419" name="model/activation_61/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="256" name="model/conv4_1_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1479114793_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_2_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="306" name="model/conv4_2_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_43/Relu" out_port_id="0"/>
+		<IR id="307" name="model/activation_43/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_4_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="349" name="model/conv4_4_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1481914821_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/reshape_3/Reshape" out_port_id="0"/>
+		<IR id="129" name="model/reshape_3/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_68/Relu" out_port_id="0"/>
+		<IR id="472" name="model/activation_68/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="28" name="model/conv2_1_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_5_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="407" name="model/conv4_5_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_37/Relu" out_port_id="0"/>
+		<IR id="255" name="model/activation_37/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_5_3x3/Conv2D" out_port_id="0"/>
+		<IR id="388" name="model/conv4_5_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_15/Reshape/shape" out_port_id="0"/>
+		<IR id="534" name="model/reshape_15/Reshape/Cast_123796_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_65/Relu" out_port_id="0"/>
+		<IR id="447" name="model/activation_65/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_2_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="70" name="model/conv2_2_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape/Reshape/shape" out_port_id="0"/>
+		<IR id="23" name="model/reshape/Reshape/Cast_123858_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_11/Relu" out_port_id="0"/>
+		<IR id="81" name="model/activation_11/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_58/Relu" out_port_id="0"/>
+		<IR id="406" name="model/activation_58/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_3_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="342" name="model/conv4_3_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_3_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="191" name="model/conv3_3_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_2_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="493" name="model/conv5_2_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_5_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="382" name="model/conv4_5_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1483114833_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/reshape_4/Reshape/shape" out_port_id="0"/>
+		<IR id="163" name="model/reshape_4/Reshape/Cast_123812_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation/Relu" out_port_id="0"/>
+		<IR id="5" name="model/activation/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_8/Relu" out_port_id="0"/>
+		<IR id="68" name="model/activation_8/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_56/Relu" out_port_id="0"/>
+		<IR id="386" name="model/activation_56/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/dense/MatMul/ReadVariableOp" out_port_id="0"/>
+		<IR id="556" name="model/dense/MatMul/1_port_transpose19159_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="121" name="model/conv3_1_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_3_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="80" name="model/conv2_3_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d_13/Mean" out_port_id="0"/>
+		<IR id="463" name="model/global_average_pooling2d_13/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/flatten/Const" out_port_id="0"/>
+		<IR id="554" name="model/flatten/Reshape/Cast_123842_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="27" name="model/conv2_1_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_2_3x3/Conv2D" out_port_id="0"/>
+		<IR id="153" name="model/conv3_2_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_5_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="403" name="model/conv4_5_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_3_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="203" name="model/conv3_3_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="271" name="model/conv4_1_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_53/Relu" out_port_id="0"/>
+		<IR id="373" name="model/activation_53/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_4_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="233" name="model/conv3_4_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv5_3_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="518" name="model/conv5_3_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1488314885_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_11/add" out_port_id="0"/>
+		<IR id="413" name="model/add_11/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_6_3x3/Conv2D" out_port_id="0"/>
+		<IR id="421" name="model/conv4_6_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_3_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="526" name="model/conv5_3_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/multiply_9/mul" out_port_id="0"/>
+		<IR id="346" name="model/multiply_9/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_2_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="148" name="model/conv3_2_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="267" name="model/conv4_1_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="138" name="model/conv3_1_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_11/Reshape" out_port_id="0"/>
+		<IR id="401" name="model/reshape_11/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_5_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="390" name="model/conv4_5_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="458" name="model/conv5_1_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1486714869_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_4_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="239" name="model/conv3_4_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_5_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="410" name="model/conv4_5_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_3_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="88" name="model/conv2_3_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_48/Relu" out_port_id="0"/>
+		<IR id="340" name="model/activation_48/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d_1/Mean" out_port_id="0"/>
+		<IR id="59" name="model/global_average_pooling2d_1/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/max_pooling2d/MaxPool" out_port_id="0"/>
+		<IR id="6" name="model/max_pooling2d/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_1x1_proj/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="280" name="model/conv4_1_1x1_proj/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/add_12/add" out_port_id="0"/>
+		<IR id="446" name="model/add_12/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_22/Relu" out_port_id="0"/>
+		<IR id="156" name="model/activation_22/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/reshape_9/Reshape" out_port_id="0"/>
+		<IR id="335" name="model/reshape_9/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_12/Reshape" out_port_id="0"/>
+		<IR id="434" name="model/reshape_12/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_6_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="436" name="model/conv4_6_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="110" name="model/conv3_1_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1473114733_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_3_3x3/Conv2D" out_port_id="0"/>
+		<IR id="83" name="model/conv2_3_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="32" name="model/conv2_1_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_5_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="383" name="model/conv4_5_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_2_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="284" name="model/conv4_2_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_57/Relu" out_port_id="0"/>
+		<IR id="391" name="model/activation_57/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/multiply_15/mul" out_port_id="0"/>
+		<IR id="548" name="model/multiply_15/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_49/Sigmoid" out_port_id="0"/>
+		<IR id="345" name="model/activation_49/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv5_3_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="543" name="model/conv5_3_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_10/Relu" out_port_id="0"/>
+		<IR id="76" name="model/activation_10/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_2_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="303" name="model/conv4_2_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_80/Relu" out_port_id="0"/>
+		<IR id="550" name="model/activation_80/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_2_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="294" name="model/conv4_2_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_3/Reshape/shape" out_port_id="0"/>
+		<IR id="126" name="model/reshape_3/Reshape/Cast_123834_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_3_1x1_reduce/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="180" name="model/conv3_3_1x1_reduce/bn/FusedBatchNormV3/mean/Fused_Mul_1475514757_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/classifier/MatMul/ReadVariableOp" out_port_id="0"/>
+		<IR id="561" name="model/classifier/MatMul/1_port_transpose19163_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="451" name="model/conv5_1_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d_15/Mean" out_port_id="0"/>
+		<IR id="533" name="model/global_average_pooling2d_15/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape/Reshape" out_port_id="0"/>
+		<IR id="26" name="model/reshape/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_3_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="200" name="model/conv3_3_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_2_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="311" name="model/conv4_2_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_59/Sigmoid" out_port_id="0"/>
+		<IR id="411" name="model/activation_59/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="469" name="model/conv5_1_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_2_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="508" name="model/conv5_2_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_2_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="513" name="model/conv5_2_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_3_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="183" name="model/conv3_3_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_33/Relu" out_port_id="0"/>
+		<IR id="237" name="model/activation_33/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_6_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="443" name="model/conv4_6_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_42/Relu" out_port_id="0"/>
+		<IR id="292" name="model/activation_42/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_17/Relu" out_port_id="0"/>
+		<IR id="119" name="model/activation_17/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="456" name="model/conv5_1_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_28/Relu" out_port_id="0"/>
+		<IR id="204" name="model/activation_28/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="247" name="model/conv4_1_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="18" name="model/conv2_1_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_29/Sigmoid" out_port_id="0"/>
+		<IR id="209" name="model/activation_29/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_79/Sigmoid" out_port_id="0"/>
+		<IR id="547" name="model/activation_79/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/reshape_4/Reshape" out_port_id="0"/>
+		<IR id="166" name="model/reshape_4/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_1_1x1_proj/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="41" name="model/conv2_1_1x1_proj/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_3_1x1_reduce/Conv2D" out_port_id="0"/>
+		<IR id="78" name="model/conv2_3_1x1_reduce/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_5_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="393" name="model/conv4_5_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_1_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="473" name="model/conv5_1_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_2_1x1_up/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="308" name="model/conv4_2_1x1_up/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="269" name="model/conv4_1_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_74/Sigmoid" out_port_id="0"/>
+		<IR id="514" name="model/activation_74/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/multiply_4/mul" out_port_id="0"/>
+		<IR id="177" name="model/multiply_4/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_2_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="173" name="model/conv3_2_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_3_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="319" name="model/conv4_3_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Identity" out_port_id="0"/>
+		<IR id="565" name="model/classifier/Softmax" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/classifier/Softmax" out_port_id="0"/>
+		<IR id="565" name="model/classifier/Softmax" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_3/Relu" out_port_id="0"/>
+		<IR id="31" name="model/activation_3/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/add_3/add" out_port_id="0"/>
+		<IR id="145" name="model/add_3/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_34/Sigmoid" out_port_id="0"/>
+		<IR id="242" name="model/activation_34/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/reshape_1/Reshape/shape" out_port_id="0"/>
+		<IR id="60" name="model/reshape_1/Reshape/Cast_123854_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_4_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="218" name="model/conv3_4_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1477114773_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_36/Relu" out_port_id="0"/>
+		<IR id="250" name="model/activation_36/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/activation_21/Relu" out_port_id="0"/>
+		<IR id="151" name="model/activation_21/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="249" name="model/conv4_1_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_54/Sigmoid" out_port_id="0"/>
+		<IR id="378" name="model/activation_54/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv3_3_3x3/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="188" name="model/conv3_3_3x3/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_3_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="546" name="model/conv5_3_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_25/Relu" out_port_id="0"/>
+		<IR id="179" name="model/activation_25/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_2_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="286" name="model/conv4_2_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_3_1x1_down/BiasAdd" out_port_id="0"/>
+		<IR id="339" name="model/conv4_3_1x1_down/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d_8/Mean" out_port_id="0"/>
+		<IR id="298" name="model/global_average_pooling2d_8/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_13/Relu" out_port_id="0"/>
+		<IR id="101" name="model/activation_13/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/dropout/Identity" out_port_id="0"/>
+		<IR id="560" name="model/dense/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/dense/Relu" out_port_id="0"/>
+		<IR id="560" name="model/dense/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d_12/Mean" out_port_id="0"/>
+		<IR id="430" name="model/global_average_pooling2d_12/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_2_3x3/Conv2D" out_port_id="0"/>
+		<IR id="289" name="model/conv4_2_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_2_1x1_up/BiasAdd" out_port_id="0"/>
+		<IR id="72" name="model/conv2_2_1x1_up/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/add_8/add" out_port_id="0"/>
+		<IR id="314" name="model/add_8/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_14/Sigmoid" out_port_id="0"/>
+		<IR id="106" name="model/activation_14/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_6_1x1_reduce/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="418" name="model/conv4_6_1x1_reduce/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_3_3x3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="321" name="model/conv4_3_3x3/bn/FusedBatchNormV3/mean/Fused_Mul_1481114813_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_2_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="64" name="model/conv2_2_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv2_2_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="54" name="model/conv2_2_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1471114713_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv4_1_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="257" name="model/conv4_1_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_5_1x1_down/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="402" name="model/conv4_5_1x1_down/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/conv5_3_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="528" name="model/conv5_3_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1489114893_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/global_average_pooling2d_7/Mean" out_port_id="0"/>
+		<IR id="261" name="model/global_average_pooling2d_7/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/classifier/BiasAdd" out_port_id="0"/>
+		<IR id="564" name="model/classifier/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/multiply_14/mul" out_port_id="0"/>
+		<IR id="515" name="model/multiply_14/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_3_1x1_down/Conv2D" out_port_id="0"/>
+		<IR id="539" name="model/conv5_3_1x1_down/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_1_1x1_proj/bn/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="144" name="model/conv3_1_1x1_proj/bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/add_6/add" out_port_id="0"/>
+		<IR id="244" name="model/add_6/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv5_2_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="511" name="model/conv5_2_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_2_1x1_increase/Conv2D" out_port_id="0"/>
+		<IR id="158" name="model/conv3_2_1x1_increase/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_1/Reshape" out_port_id="0"/>
+		<IR id="63" name="model/reshape_1/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/reshape_8/Reshape" out_port_id="0"/>
+		<IR id="302" name="model/reshape_8/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv3_3_1x1_increase/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="190" name="model/conv3_3_1x1_increase/bn/FusedBatchNormV3/mean/Fused_Mul_1476314765_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/multiply_10/mul" out_port_id="0"/>
+		<IR id="379" name="model/multiply_10/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_2_3x3/Conv2D" out_port_id="0"/>
+		<IR id="50" name="model/conv2_2_3x3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv2_3_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="103" name="model/conv2_3_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/activation_75/Relu" out_port_id="0"/>
+		<IR id="517" name="model/activation_75/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model/reshape_10/Reshape" out_port_id="0"/>
+		<IR id="368" name="model/reshape_10/Reshape/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model/conv4_2_1x1_up/Conv2D" out_port_id="0"/>
+		<IR id="309" name="model/conv4_2_1x1_up/Conv2D" out_port_id="2"/>
+	</map>
+</mapping>
