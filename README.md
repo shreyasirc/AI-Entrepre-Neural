@@ -1,6 +1,6 @@
 # AI Entrepre-Neural Submission
 
-## *AUTISMO Autism Spectrum Detection for Toddlers using openVINO*
+## *Autism Spectrum Detection for Toddlers using openVINO*
 
 A simple application to detect Autism Spectrum Disorder(ASD) in toddlers using images of their faces and the standard [Q-chat-10(Quantitative Checklist for Autism in Toddlers)](https://www.autismalert.org/uploads/PDF/SCREENING--AUTISM--QCHAT-10%20Question%20Autism%20Survey%20for%20Toddlers.pdf) Test
 
